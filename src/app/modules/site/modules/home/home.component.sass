@@ -1,0 +1,57 @@
+
+@import 'src/sass/colors'
+@import 'src/sass/display'
+
+.home-container
+  background-repeat: no-repeat
+  background-position: center bottom
+  background-image: linear-gradient(#0000CD, #4169E1, #00BFFF )
+  min-height: 100vh
+  margin: 0px
+  align-items: center
+  justify-content: space-around
+  padding: 60px 60px
+
+.bg-footer
+  margin:0px
+  max-height: 50%
+  max-width: 100%
+
+
+.img-header
+  margin: 10px
+  align-items: center
+  max-width: 10%
+  max-height: 40%
+  padding: 70px
+  position: center
+
+.text
+  align-items: center
+  padding: 50px 50px
+  margin-top: 30px
+
+.home-content-text
+  color: $white
+  font-style: normal
+  font-weight: 900
+  font-size: 50px
+  line-height: 90px
+  display: flex
+  align-items: center
+
+
+
+@media screen and (max-width: $screen-lg-min)
+  .home-container
+    background: none
+    background-color: $purple
+    align-items: center
+  .account-form
+    max-width:300px
+    .img-header
+      width: 4px
+
+
+
+

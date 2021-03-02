@@ -1,0 +1,72 @@
+@import 'src/sass/colors'
+@import 'bootstrap'
+@import 'src/sass/display'
+
+.account-details
+  background: $gray-light
+  display: flex
+  flex-direction: row
+  justify-content: center
+  flex-flow: wrap
+  padding:5em
+
+.gama-digital, .credit-card
+  display: flex
+  flex-direction: column
+  max-width: 100%
+  justify-content: space-between
+  width:700px
+
+.gama-digital
+  background-color: #ADD8E6
+  padding: 5rem 1rem 5rem 5rem
+  align-items: left
+
+.credit-card
+  background-color: $white-dark
+  align-items: center
+  padding: 5rem 1rem
+
+.gama-digital-title
+  color: #191970
+
+.credit-card-title
+  color: $black-dark
+
+.gama-digital-bg
+  max-width: 5300px
+
+.credit-card-bg
+  max-width: 500px
+
+.gama-digital-discription, .credit-card-discription
+  max-width: 300px
+  font-size: 21px
+  line-height: 25px
+
+.gama-digital-discription
+  color:#191970
+
+.credit-card-discription
+  color: $black-dark
+
+@media screen and (max-width: $screen-lg-min)
+  .account-details, .credit-card, .gama-digital
+    flex-direction: column
+    align-items: center
+    padding:2rem 0rem
+
+  .gama-digital-title, .credit-card-title,
+  .gama-digital-discription, .credit-card-discription
+    text-align: center
+    margin:2rem
+
+  .credit-card-bg
+    width:70%
+    margin:0rem
+
+  .gama-digital-bg
+    max-width: 300px
+
+
+
