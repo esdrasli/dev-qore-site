@@ -5,7 +5,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AnnuityComponent } from './modules/annuity/annuity.component';
 import { ComplexityComponent } from './modules/complexity/complexity.component';
-import { CreateAccountFormComponent } from './modules/create-account-form/create-account-form.component';
 import { DigitalAccountComponent } from './modules/digital-account/digital-account.component';
 import { HomeComponent } from './modules/home/home.component';
 import { SimplifyLifeComponent } from './modules/simplify-life/simplify-life.component';
@@ -16,7 +15,6 @@ import { SiteRoutingModule } from './site.routing.module';
   declarations: [
       SiteComponent,
       HomeComponent,
-      CreateAccountFormComponent,
       DigitalAccountComponent,
       AnnuityComponent,
       ComplexityComponent,
