@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
     this.title.setTitle('devQore');
   }
 
-
+ 
 
   ngOnInit(): void {
   }
