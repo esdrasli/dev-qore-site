@@ -11,7 +11,7 @@ import { SimplifyLifeComponent } from './modules/simplify-life/simplify-life.com
 import { SiteComponent } from './site.component';
 import { SiteRoutingModule } from './site.routing.module';
 
-@NgModule({
+@NgModule({ 
   declarations: [
       SiteComponent,
       HomeComponent,
